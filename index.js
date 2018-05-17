@@ -41,4 +41,34 @@
 
     }
   });
+
+
+stopButton.addEventListener('mouseenter', function(event){
+console.log("Entered", event.target.textContent);
+});
+
+slowButton.addEventListener('mouseenter', function(event){
+console.log("Entered", event.target.textContent);
+});
+
+goButton.addEventListener('mouseenter', function(event){
+console.log("Entered", event.target.textContent);
+});
+
+
+
+
+stopButton.addEventListener('mouseleave', function(event){
+console.log("Left", event.target.textContent);
+});
+
+slowButton.addEventListener('mouseleave', function(event){
+console.log("Left", event.target.textContent);
+});
+
+goButton.addEventListener('mouseleave', function(event){
+console.log("Left", event.target.textContent);
+});
+
+
 })();
